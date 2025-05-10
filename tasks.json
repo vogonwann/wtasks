@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Buy milk",
+    "done": true
+  },
+  {
+    "name": "Write Rust code",
+    "done": true
+  },
+  {
+    "name": "Read The Book",
+    "done": true
+  },
+  {
+    "name": "Deploy to production",
+    "done": true
+  },
+  {
+    "name": "check if adding works correctly 3",
+    "done": false
+  }
+]
