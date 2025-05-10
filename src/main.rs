@@ -5,19 +5,19 @@ use wtasks::TaskManager;
 #[command(name = "task-runner")]
 #[command(about = "Burketov async task processor", version, long_about = None)]
 struct Args {
-    /// Додај нови задатак
+    /// Add a new task
     #[arg(short, long, value_name = "TEXT")]
     name: Option<String>,
 
-    /// Излистај све задатке без покретања
+    /// List all tasks
     #[arg(short, long)]
     list: bool,
 
-    /// Обележи конкретан задатак као завршен (1-базирано)
+    /// Mark a task as done (1-based index)
     #[arg(long, value_name = "INDEX")]
     done: Option<usize>,
 
-    /// Избриши конкретан задатак (1-базирано)
+    /// Remove a task (1-based index)
     #[arg(short, long, value_name = "INDEX")]
     remove: Option<usize>,
 }

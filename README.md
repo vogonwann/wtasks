@@ -19,7 +19,7 @@ It supports adding, listing, marking, and removing tasks, with optional persiste
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/your-username/wtasks.git
+git clone https://github.com/vogonpoet/wtasks.git
 cd wtasks
 cargo build --release
 ```
