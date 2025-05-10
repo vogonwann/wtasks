@@ -30,6 +30,7 @@ async fn main() {
     if args.list {
         println!("\n📋 Task List:");
         manager.list_tasks();
+        return;
     }
 
     if let Some(index) = args.done {
